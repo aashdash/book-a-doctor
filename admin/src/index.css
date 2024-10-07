@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+  @apply hidden
+}
+
+*{
+  font-family: Outfit;
+}
+
+.custom-checkbox {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.custom-checkbox:checked {
+  background-color: blue; /* Background color when checked */
+  border-color: blue;
+}
+
+.custom-checkbox:checked::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
