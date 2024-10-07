@@ -92,7 +92,7 @@ export const doctors = [
         image: doc1,
         speciality: 'Generalphysician',
         degree: 'MBBS',
-        experience: '4 Years',
+        experience: '4 Year',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
@@ -106,7 +106,7 @@ export const doctors = [
         image: doc2,
         speciality: 'Gynecologist',
         degree: 'MBBS',
-        experience: '3 Years',
+        experience: '3 Year',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 60,
         address: {
@@ -120,7 +120,7 @@ export const doctors = [
         image: doc3,
         speciality: 'Dermatologist',
         degree: 'MBBS',
-        experience: '1 Years',
+        experience: '1 Year',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 30,
         address: {
@@ -134,7 +134,7 @@ export const doctors = [
         image: doc4,
         speciality: 'Pediatrician',
         degree: 'MBBS',
-        experience: '2 Years',
+        experience: '2 Year',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 40,
         address: {
@@ -148,7 +148,7 @@ export const doctors = [
         image: doc5,
         speciality: 'Neurologist',
         degree: 'MBBS',
-        experience: '4 Years',
+        experience: '4 Year',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
@@ -162,7 +162,7 @@ export const doctors = [
         image: doc6,
         speciality: 'Neurologist',
         degree: 'MBBS',
-        experience: '4 Years',
+        experience: '4 Year',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
@@ -176,7 +176,7 @@ export const doctors = [
         image: doc7,
         speciality: 'Generalphysician',
         degree: 'MBBS',
-        experience: '4 Years',
+        experience: '4 Year',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
@@ -190,7 +190,7 @@ export const doctors = [
         image: doc8,
         speciality: 'Gynecologist',
         degree: 'MBBS',
-        experience: '3 Years',
+        experience: '3 Year',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 60,
         address: {
