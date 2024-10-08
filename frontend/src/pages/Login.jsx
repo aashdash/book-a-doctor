@@ -101,7 +101,7 @@ const navigate = useNavigate()
 
     try{
       if(state === 'Sign Up'){
-        const {data} = await axios.post(backendUrl +'/api/user/reister',{name,password,email})
+        const {data} = await axios.post(backendUrl +'/api/user/register',{name,password,email})
         if(data.success){
           localStorage.setItem('token',data.token)
             setToken(data.token)
@@ -129,7 +129,7 @@ const navigate = useNavigate()
   })
 
   return (
-    <form onSubmit={onSubmitHandler} className='min-h-[80vh] flex items-center' onSubmit={onSubmitHandler}>
+    <form onSubmit={onSubmitHandler} className='min-h-[80vh] flex items-center'>
       <div className='flex flex-col gap-3 m-auto items-start p-8 min-w-[340px] sm:min-w-96 border rounded-xl text-zinc-600 text-sm shadow-lg'>
         {/* Corrected comparison for 'signup' state */}
         <p className='text-2xl font-semibold'>{state === 'signup' ? "Create Account" : "Login"}</p>
