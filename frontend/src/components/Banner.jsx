@@ -1,4 +1,4 @@
-import React from 'react'
+//import React from 'react'
 // // import { doctors } from '../assets/assets_frontend/assets'
 import appointment_img from '../assets/assets_frontend/appointment_img.png'
 import { useNavigate } from 'react-router-dom'
